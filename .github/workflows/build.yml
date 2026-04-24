@@ -27,7 +27,7 @@ jobs:
             --collect-all customtkinter `
             --collect-all matplotlib `
             --collect-all sympy `
-            your_script.py
+            main.py
 
       - name: Upload EXE as Artifact
         uses: actions/upload-artifact@v4
